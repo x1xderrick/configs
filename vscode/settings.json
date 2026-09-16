@@ -1,0 +1,47 @@
+{
+    "workbench.colorTheme": "Gruvbox Dark Medium",
+    "vim.leader": ";",
+    "vim.normalModeKeyBindings": [
+        {
+            "before": ["<leader>", "<leader>"],
+            "commands": [":w"]
+        },
+        {
+            "before": ["H"],
+            "after": ["^"]
+        },
+        {
+            "before": ["L"],
+            "after": ["$"]
+        }
+    ],
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["C-j"],
+            "after": ["<Escape>"]
+        },
+    ],
+    "vim.visualModeKeyBindings": [
+        {
+            "before": ["C-j"],
+            "after": ["<Escape>"]
+        },
+        {
+            "before": ["H"],
+            "after": ["^"]
+        },
+        {
+            "before": ["L"],
+            "after": ["$"]
+        }
+    ],
+    "explorer.confirmDelete": false,
+    "redhat.telemetry.enabled": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "chat.commandCenter.enabled": false,
+    "editor.indentSize": "tabSize",
+    "[odin]": {
+        "editor.insertSpaces": false
+    },
+    "editor.renderWhitespace": "all",
+}
